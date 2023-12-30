@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Envelope Redirect</title>
+  <style>
+    /* Style for the envelope */
+    .envelope-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .envelope img {
+      width: 250px; /* Adjust the size as needed */
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="envelope-container">
+    <a href="https://drive.google.com/uc?id=1Ao442q4JgjRUcZj4J4T7nG_GX0bk4ePf" id="envelope" onclick="redirectGooglePhoto()">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSME1xR9yNRqluiTrdh5fA8Z9uTIL3utrzJZg&usqp=CAU" alt="Envelope Image" class="envelope">
+    </a>
+  </div>
+
+  <script>
+    function redirectGooglePhoto() {
+      window.location.href = 'https://drive.google.com/uc?id=1Ao442q4JgjRUcZj4J4T7nG_GX0bk4ePf';
+    }
+  </script>
+</body>
+</html>
